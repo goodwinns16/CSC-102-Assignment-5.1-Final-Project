@@ -1,0 +1,169 @@
+/*Sarah Goodwin 3/17/25*/
+/*CSS for CSC 102 Incoporate Audio Assignment*/
+nav
+{
+    text-align: center;
+    background-color: rgba (30,41,59,0.85);
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.3);
+    margin: 20px auto;
+    width: 85%;
+}
+nav a /*blocks all <a> links inside of <nav> section*/
+{
+    color: black; 
+    text-decoration: none; /*got rid of the underline that link usually has*/
+    font-size: 1.20em; /*20% bigger than normal size*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15 px; /*adds horizontal spacing on left and right between links, adds space inside link to make it more button like*/
+    border-radius: 6px; /*rounds corners of 'button'*/
+    transition: all 0.3s ease;/*creates a hover affect that fades at .3 seconds*/ 
+}
+
+nav a:hover/*what happens when the mouse hovers over the navigation*/
+{
+    background-color: #fef9c3;
+    color: #1e293b;
+}
+head
+{
+    text-align: center;
+}
+
+h1
+{    
+    font-size: 50px;
+    text-decoration:dotted;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: black; 
+    color: #7b572a;
+}
+
+h3
+{
+    font-size: 30px;
+    text-align: center;
+    border: 3px dotted white;
+    border-radius: 20px;
+    background-color: black;
+    color: #7b572a;
+}
+
+h5
+{
+    font-size: 20px;
+    text-align: center;
+    border: 2px dashed red;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+}
+body
+{
+    background-image: url("squirrel society.jpeg");
+    background-size: cover;
+    background-position: top center; 
+    background-repeat: no-repeat;
+    color: #7b572a;
+}
+
+form
+{
+    border-top-left-radius: 1em 1em ;
+    border-top-right-radius: 1em 1em ;
+    border-bottom-left-radius: 1em 1em ;
+    border-bottom-right-radius: 1em 1em ;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size:25px;
+
+}
+
+p
+{
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: bold;
+    font-style: italic;
+    font-weight: bold;
+    color: #7b572a;
+}
+
+.container 
+{
+    display:flex;
+    justify-content: center;/*centers horizontally*/
+    align-items: center;/*centers vertically*/
+}
+
+.container2 
+{
+    display:flex;
+    justify-content: center;/*centers horizontally*/
+    align-items: center;/*centers vertically*/
+}
+
+.container3 
+{
+    display:flex;
+    justify-content: center;/*centers horizontally*/
+    align-items: center;/*centers vertically*/
+}
+startButton
+{
+    background-color: yellow;
+    border-color: darkolivegreen;
+    border-radius: 50px;
+    border-style: dashed;
+    width: 50px;
+    height: 50px;
+    cursor:crosshair;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#startButton:hover
+{
+    background-color: blanchedalmond;
+    color: brown;
+    padding: 25px 25px;
+    transition-duration: .4s;
+    
+}
+stopButton
+{
+    background-color: yellow;
+    border-color: darkolivegreen;
+    border-radius: 50px;
+    border-style: dashed;
+    width: 50px;
+    height: 50px;
+    cursor:crosshair;
+    text-align: center;
+}
+
+#stopButton:hover
+{
+    background-color: blanchedalmond;
+    color: brown;
+    padding: 25px 25px;
+    transition-duration: .4s;
+}
+
+
+footer 
+{
+    text-align: center;
+    color:#7b572a;
+    background-color: black;
+    border-radius: 3px;
+
+}

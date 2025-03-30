@@ -1,0 +1,57 @@
+/*Sarah Goodwin 3 29 25*/
+h1
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white
+}
+
+body 
+{
+    background-image: url(digital\ maker\ degree\ background.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; /*no repeating of the picture*/
+}
+nav
+{
+    text-align: center;
+    background-color: rgba (30,41,59,0.85);
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.3);
+    margin: 20px auto;
+    width: 85%;
+}
+nav a /*blocks all <a> links inside of <nav> section*/
+{
+    color:  #fef9c3; 
+    text-decoration: none; /*got rid of the underline that link usually has*/
+    font-size: 1.2em; /*20% bigger than normal size*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px; /*adds horizontal spacing on left and right between links, adds space inside link to make it more button like*/
+    border-radius: 6px; /*rounds corners of 'button'*/
+    transition: all 0.3s ease;/*creates a hover affect that fades at .3 seconds*/ 
+}
+
+nav a:hover/*what happens when the mouse hovers over the navigation*/
+{
+    background-color: #fef9c3;
+    color: #1e293b;
+}
+
+
+table
+{
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,44 @@
+<!--Sarah Goodwin 3/5/3035-->
+<!--This is my strings HTML page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "CSC 102 strings 3 5 25.js"></script>
+    <!--This is my connection point to my javascript which is the function attachment-->
+    <title>Tangled in Strings: A Javascript Adventure</title>
+    <link href="Main Strings.css" rel="stylesheet">
+    <!--This is an updated CSS specifically for this Strings Assignment-->
+</head>
+<nav>
+    <a href = "CSC 102 move image 3.19.25.html">Index Page</a>
+    <a href = "Truth or Dare Game.html">Game</a>
+    <a href = "CSC 102 Assignment 4.2 Incorporate Audio.html">Input Validation</a>
+    <a href = "Assignment 2.1 Using CSS to make it personal- BOARDS.html">Boards Page</a>
+    <a href = "CSC 102 table 3 26 25.html">Maker Projects</a>
+</nav>
+<body>
+    <!--Here are some fun quirky ways for the user to understand what they should enter in the boxes-->
+    <header>
+        <h1> Tangled in Strings: A Javascript Adventure </h1>
+        <h3>Let's Flip that over and Reverse it!</h3>
+        <h5> Palindrome Guessing Game: Think of a word or phrase that reads the same forwards
+         and backwards and enter it below! </h5>
+    </header>
+    <form id = "stringInput" onsubmit = "return false"> 
+        <!--These are the two boxes to be able to submit a guess at a Palindrone-->
+        <!--It will prompt to try again if the answer is incorrect-->
+        String 1: <input type = "text" id = "firstString"/>
+        <br> <br>
+        <!--String 2: <input type = "text" id = "secondString"/> Commented out this line so that I still have it for my notes
+        <br> <br>-->
+        <input type = "submit" onclick = "strings();"/>
+
+
+    </form>
+    <p id = "updates" >Updates Here</p>
+    <!--This is where the box updates whether they made the correct choice or if they should try again-->
+</body>
+<footer>Copyright 2025 SG</footer>
+</html>

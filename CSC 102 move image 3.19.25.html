@@ -1,0 +1,45 @@
+<!--Sarah Goodwin 3/21/25-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Help the Bee Pollinate the Flowers</title>
+
+    <link rel = "stylesheet" href= "CSC 102 move image 3.19.25.css"><!--This is where the CSS attaches and
+    makes it pretty!-->
+</head>
+
+<nav>
+    <nav>
+        <a href = "Truth or Dare Game.html">Game</a>
+        <a href = "CSC 102 strings 3 5 25.html">Palindrome</a>
+        <a href = "CSC 102 Assignment 4.2 Incorporate Audio.html">Input Validation</a>
+        <a href = "Assignment 2.1 Using CSS to make it personal- BOARDS.html">Boards Page</a>
+        <a href = "CSC 102 table 3 26 25.html">Maker Projects</a>
+    </nav>
+</nav>
+<body>
+    <h1>Help the Bee Pollinate the Flowers</h1><!--This is the header-->
+    <div id="garden"> <!--boundary container for the garden-->
+        <img src = "Firefly daisy no background 64641.jpg" class="flower" style = "top: 20px; left: 50px;" id="flower0">
+        <!--I first tried these with no class and only id and realized I would have to do each one seperately
+        in CSS so I decided to do all in a class and then a subclass of id-->
+        <img src = "Firefly daisy no background 64641.jpg" class="flower" style = "top: 300px; left: 100px;" id="flower1">
+        <img src = "Firefly daisy no background 64641.jpg" class="flower" style = "top: 150px; left: 400px;" id="flower2">
+
+        <img src="Firefly honey bee no background 64641.jpg" id="bee"><!--bee image, I had to move because 
+        the first time I had it outside of my "garden"-->
+    </div>
+    <!--Start and stop buttons and what their onclick!-->
+    <button id= "startButton" onclick = "intervalStart()">Help the Bee Pollinate the Flowers</button>
+    <button id= "stopButton" onclick = "intervalStop()">Flowers Pollinated</button>
+
+     
+    
+
+    <script src = "CSC 102 move image 3.19.25.js"></script><!--This is where the javascript attaches-->
+    <footer>Copyright 2025 SG</footer>
+</body>
+</html>

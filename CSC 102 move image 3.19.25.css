@@ -1,0 +1,88 @@
+/*Sarah Goodwin 3/23/25*/
+h1
+{
+    text-align: center;
+    font-family: 'Bubblegum Sans'; cursive; 
+    color: black
+}
+body 
+{
+    font-family: 'Bubblegum Sans'; cursive;
+    background: linear-gradient(to top right, rgb(244, 244, 201), white);
+    text-align: center;
+    padding: 20px;
+}
+
+nav
+{
+    text-align: center;
+    background-color: rgba (30,41,59,0.85);
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.3);
+    margin: 30px auto;
+    width: 85%;
+}
+nav a /*blocks all <a> links inside of <nav> section*/
+{
+    color: black; 
+    text-decoration: none; /*got rid of the underline that link usually has*/
+    font-size: 1.20em; /*20% bigger than normal size*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15 px; /*adds horizontal spacing on left and right between links, adds space inside link to make it more button like*/
+    border-radius: 6px; /*rounds corners of 'button'*/
+    transition: all 0.3s ease;/*creates a hover affect that fades at .3 seconds*/ 
+}
+
+nav a:hover/*what happens when the mouse hovers over the navigation*/
+{
+    background-color: #fef9c3;
+    color: #1e293b;
+}
+
+#garden /*garden container*/
+{
+    position: relative;
+    width: 600px;
+    height:400px;
+    margin: 0 auto;
+    border: 5px dashed pink;
+    background-image: url(Firefly\ grass\ 75145.jpg);
+    overflow: hidden;
+}
+
+.flower/*flower images*/ 
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    transition: filter 0.5s;
+}
+
+#bee/*bee image*/
+{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: top 1s, left 1s;
+}
+
+button
+{
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#message
+{
+    font-size: 1.5em;
+    color: green;
+    margin-top: 20px;
+}

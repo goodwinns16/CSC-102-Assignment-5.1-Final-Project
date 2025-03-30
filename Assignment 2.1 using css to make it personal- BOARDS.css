@@ -1,0 +1,130 @@
+/*Sarah Goodwin 3/1/25*/
+body
+{
+    background: linear-gradient(cyan, rgb(186, 19, 147));
+    /*I don't love how the board page came out with it splitting the page. Look up options to fix this. Update
+    It is now not splitting the page, but changes as it scrolls down which I feel looks better*/
+    color: rgb(77, 4, 77);
+        
+}
+nav
+{
+    text-align: center;
+    background-color: rgba (30,41,59,0.85);
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.3);
+    margin: 20px auto;
+    width: 85%;
+}
+nav a /*blocks all <a> links inside of <nav> section*/
+{
+    color: black; 
+    text-decoration: none; /*got rid of the underline that link usually has*/
+    font-size: 1.20em; /*20% bigger than normal size*/
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15 px; /*adds horizontal spacing on left and right between links, adds space inside link to make it more button like*/
+    border-radius: 6px; /*rounds corners of 'button'*/
+    transition: all 0.3s ease;/*creates a hover affect that fades at .3 seconds*/ 
+}
+
+nav a:hover/*what happens when the mouse hovers over the navigation*/
+{
+    background-color: #fef9c3;
+    color: #1e293b;
+}
+
+p
+{
+    background-color: rgb(94, 243, 104);
+    text-align: left;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+    margin-right: 200px;
+
+
+}
+ol
+{
+    margin-left: 125px;
+    padding-left: 125px;
+}
+/*Margins were added to the ol because they were falling inside of the navigation border*/
+
+img
+/*I feel like this looked better before I set the margins to margin-right: 200px*/
+{
+    margin-right: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+img:hover {
+    box-shadow: inset;
+    background-color: #ddd;
+}
+/*Attempted to make a fun hover for the picture.*/
+
+h1
+{
+    text-decoration:double;
+    text-decoration-color: brown;
+    text-align: center;
+    border: 2px dotted black;
+    border-color: rgb(194, 18, 139);
+    border-top-left-radius: 1em 1em ;
+    border-top-right-radius: 1em 1em ;
+    border-bottom-left-radius: 1em 1em ;
+    border-bottom-right-radius: 1em 1em ;
+    background-color: purple;
+}
+
+h3
+{
+    font-size: 35px;
+    text-align: center;
+    background-color: purple;
+    border-radius: 1em;
+}
+
+h5
+{
+    font-size: 30px;
+    text-align: center;
+    background-color: purple;
+    border-radius: 1em;
+}
+
+
+
+button
+{
+    background-color: yellow;
+    border-color: darkolivegreen;
+    border-radius: 50px;
+    border-style: dashed;
+    width: 100px;
+    height: 100px;
+    cursor:crosshair;
+}
+
+#firstbutton:hover
+{
+    background-color: blanchedalmond;
+    color: purple;
+    padding: 46px 46px;
+    transition-duration: .4s;
+}
+
+footer 
+{
+    text-align: center;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 1em;
+}
